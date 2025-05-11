@@ -1,9 +1,22 @@
-import React from 'react'
+import React from "react";
+import styles from "./ImageComponent.module.css";
+import Image from "next/image";
 
 function ImageComponent() {
   return (
-    <div>ImageComponent</div>
-  )
+    <div className={styles.imageContainer}>
+      <Image
+        src="/NordGen.webp"
+        alt="Pic of NordGen"
+        fill
+        sizes="100vw"
+        style={{
+        objectFit: "cover",
+        objectPosition: "bottom",
+        }}
+      />
+    </div>
+  );
 }
 
-export default ImageComponent
+export default ImageComponent;

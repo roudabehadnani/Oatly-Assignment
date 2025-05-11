@@ -9,7 +9,7 @@ interface ArticleMetaProps {
 
 function ArticleMeta({ author, category, publishedAt }: ArticleMetaProps) {
   return (
-    <section className={styles.articleMetaContainer}>
+    <div className={styles.articleMetaContainer}>
       <div className={styles.authorCategory}>
         <p>
           BY {author} &nbsp;•&nbsp; {category}
@@ -18,7 +18,7 @@ function ArticleMeta({ author, category, publishedAt }: ArticleMetaProps) {
       <div className={styles.publishedAt}>
         <p>{publishedAt}</p>
       </div>
-    </section>
+    </div>
   );
 }
 
