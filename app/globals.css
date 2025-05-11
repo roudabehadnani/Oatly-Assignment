@@ -90,6 +90,6 @@ a {
 /* ≤575px */
 @media (max-width: 575px) {
   html {
-    font-size: 68.75%; /* 11px */
+    font-size: 75%; /* 12px */
   }
 }

@@ -14,12 +14,10 @@
 }
 
 @media screen and (max-width: 1328px) {
-    .headingContainer{
-        text-align: center;
-        font-size: 8rem; 
-  
-    }
-    
+  .headingContainer {
+    text-align: center;
+    font-size: 8rem;
+  }
 }
 /* 992px–1199px */
 @media (max-width: 1199px) {
@@ -51,7 +49,7 @@
 /* Below 576px */
 @media (max-width: 575px) {
   .headingContainer {
-    font-size:4rem;
+    font-size: 4rem;
     letter-spacing: -0.1rem;
     line-height: 1.1;
   }
