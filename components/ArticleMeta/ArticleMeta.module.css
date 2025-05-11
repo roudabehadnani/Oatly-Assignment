@@ -1,0 +1,41 @@
+.articleMetaContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  gap: 0.5rem;
+}
+.authorCategory {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 1.2rem;
+  border: 0.1rem solid #000;
+  border-radius: 5rem;
+  text-transform: uppercase;
+}
+.publishedAt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 1.2rem;
+  border: 0.1rem solid #000;
+  border-radius: 5rem;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1328px) {
+  .articleMetaContainer {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 476px) {
+  .articleMetaContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
