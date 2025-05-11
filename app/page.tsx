@@ -9,8 +9,8 @@ import ParagraphContentRow from "@/components/Paragraphs/ParagraphContentRow";
 import ParagraphContentColumn from "@/components/Paragraphs/ParagraphContentColumn";
 
 export default function Home() {
-  const paragraphRowData = data.paragraphs.slice(0, 3);
-  const paragraphColumnData = data.paragraphs.slice(3);
+  const paragraphRowData = data.paragraphs.slice(0, 4);
+  const paragraphColumnData = data.paragraphs.slice(4);
 
   return (
     <div className={styles.pageContainer}>

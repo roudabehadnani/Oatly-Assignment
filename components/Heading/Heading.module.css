@@ -19,6 +19,12 @@
     font-size: 8rem;
   }
 }
+/* 1200px–1399px */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .headingContainer {
+    font-size: 8.5rem;
+  }
+}
 /* 992px–1199px */
 @media (max-width: 1199px) {
   .headingContainer {
