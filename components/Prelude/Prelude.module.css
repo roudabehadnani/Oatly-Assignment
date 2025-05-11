@@ -4,3 +4,9 @@
   justify-content: flex-start;
   font-size: 1.5rem;
 }
+
+@media screen and (max-width: 1328px) {
+  .preludeContainer {
+    text-align: center;
+  }
+}

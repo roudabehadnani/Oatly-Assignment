@@ -8,3 +8,11 @@
   overflow: hidden;
 
 }
+@media (max-width: 1328px) {
+  .imageContainer {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    position: relative;
+    overflow: hidden;
+  }
+}
