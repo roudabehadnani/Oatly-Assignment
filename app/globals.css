@@ -40,3 +40,56 @@ a {
     color-scheme: dark;
   }
 }
+
+/* Selection */
+::selection {
+  background-color: #98c5d3;
+}
+
+::-moz-selection {
+  background-color: #98c5d3;
+}
+
+/* Breakpoints */
+
+/* ≥1400px */
+@media (min-width: 1400px) {
+  html {
+    font-size: 100%; /* 16px */
+  }
+}
+
+/* 1200px–1399px */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  html {
+    font-size: 93.75%; /* 15px */
+  }
+}
+
+/* 992px–1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  html {
+    font-size: 87.5%; /* 14px */
+  }
+}
+
+/* 768px–991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  html {
+    font-size: 81.25%; /* 13px */
+  }
+}
+
+/* 576px–767px */
+@media (min-width: 576px) and (max-width: 767px) {
+  html {
+    font-size: 75%; /* 12px */
+  }
+}
+
+/* ≤575px */
+@media (max-width: 575px) {
+  html {
+    font-size: 68.75%; /* 11px */
+  }
+}
