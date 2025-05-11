@@ -7,10 +7,10 @@ const courierPrime = Courier_Prime({
   weight: ["400", "700"],
 });
 
-function ParagraphContentColumn({ paragraphContent }: { paragraphContent: string[] }) {
+function ParagraphContentColumn({ paragraphColumnData }: { paragraphColumnData: string[] }) {
   return (
     <div className={`${courierPrime.className} ${styles.paragraphContentColumnContainer}`}>
-      {paragraphContent.map((paragraph, index) => {
+      {paragraphColumnData.map((paragraph, index) => {
         return (
           <p className={styles.paragraphColumn} key={index}>
             {paragraph}
