@@ -27,7 +27,7 @@
 }
 
 .preludeWrapper {
-  width: 160%;
+  /* width: 160%; */
   width: clamp(100%, 160%, 62.5rem);
   position: relative;
   z-index: 2;
