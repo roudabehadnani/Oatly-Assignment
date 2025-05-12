@@ -9,6 +9,7 @@ function ImageComponent() {
         src="/NordGen.webp"
         alt="Pic of NordGen"
         fill
+        priority
         sizes="100vw"
         style={{
         objectFit: "cover",
